@@ -74,10 +74,4 @@ I did not wrote this. I was Using the Scratch Programming interface since I’m 
 
 # Set up your own Exploring
 
-1. Download and install [Wireshark](https://www.wireshark.org)I recommend using a Window machine since it is the easiest. Make sure to also install USBPCap. This is a option in the Wireshark installer.On macOS you have to disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection)On Linux and Mac you can follow this [guide](https://wiki.wireshark.org/CaptureSetup/USB).
-2. Start sniffing.Open Wireshark and select the right interface.On windows you have the option to Select a specific device on a USB-Node. This can be done over the small Cog-Icon.
-3. Capture everything you want and explore it.
-
-Filter for filtering the application data Messages from the app to the hub: `usb.src==host&&frame.len!=27`
-
-Since I was using a Windows 10 VM on my mac I had to select this device.
+Follow [this](https://github.com/Jan18101997/Mindstorms/tree/master/Wireshark/).
